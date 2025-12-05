@@ -234,7 +234,6 @@ $text7 = "hello world";
 $position = strpos($text7, "world");
 echo "Position of 'world': " . $position . "<br>";  
 // Output: 6 (position where "world" starts)
-?>
 
 // Example 8: substr() - Extract Part of a String
 $text8 = "Hello World";
