@@ -94,11 +94,11 @@ Both will output: **Armour Infosec**
 * Variable names should be **meaningful** (`$age`, `$totalPrice`), not random (`$a`, `$b`), for better code readability.
 * Reserved PHP keywords (like `if`, `echo`, `class`) **cannot** be used as variable names.
 
-Refer to: **See Reserved Keywords**
+Refer to: **[See Reserved Keywords](https://www.php.net/manual/en/reserved.keywords.php)**
 
 ---
 
-## **Variable.php Code Example**
+## **`Variable.php` Code Example**
 
 ```php
 <!DOCTYPE html>

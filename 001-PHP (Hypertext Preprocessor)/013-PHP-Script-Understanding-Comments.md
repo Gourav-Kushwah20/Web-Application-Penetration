@@ -41,7 +41,7 @@ spanning multiple lines
 
 ---
 
-## **Code**
+## 💻 **Code**
 
 ```php
 <!DOCTYPE html>

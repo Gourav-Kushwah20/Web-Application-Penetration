@@ -1,10 +1,9 @@
-# **PHP-Script-HTML-with-Calculations-and-Text-Output**
+# PHP-Script-HTML-with-Calculations-and-Text-Output
 
 This script generates an HTML5 page with dynamic content using PHP: headings, arithmetic operations, string concatenations, and printed text.
 
----
+## 💻 Code
 
-## **Code**
 
 ```php
 <!DOCTYPE html>

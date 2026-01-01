@@ -1,10 +1,10 @@
-# **PHP Script: HTML Page with Title and Heading**
+# 🐘 PHP Script: HTML Page with Title and Heading
 
 This script creates a simple HTML5 page titled and headed with **"Armour Infosec"** using PHP.
 
 ---
 
-## **Code**
+## 💻 Code
 
 ```php
 <!DOCTYPE html>
@@ -17,11 +17,11 @@ This script creates a simple HTML5 page titled and headed with **"Armour Infosec
     <h1><?php echo "Armour Infosec"; ?></h1>
 </body>
 </html>
-```
+````
 
 ---
 
-## **Explanation**
+## 📘 Explanation
 
 * **`<!DOCTYPE html>`**: Declares the HTML5 document type.
 * **`<meta charset="utf-8">`**: Ensures the page uses UTF-8 character encoding.
@@ -30,7 +30,7 @@ This script creates a simple HTML5 page titled and headed with **"Armour Infosec
 
 ---
 
-## **Tip**
+## 💡 Tip
 
 You can define a variable for reuse:
 
@@ -49,6 +49,4 @@ $title = "Armour Infosec";
 </body>
 </html>
 ```
-
----
 
