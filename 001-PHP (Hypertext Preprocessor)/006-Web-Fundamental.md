@@ -17,7 +17,7 @@ Host: www.example.com
 
 ---
 
-# 🚀 HTTP Versions
+## 🚀 HTTP Versions
 
 | **Version**  | **Year** | **Key Features**                                                                          |
 | ------------ | -------- | ----------------------------------------------------------------------------------------- |
@@ -39,3 +39,89 @@ Host: www.example.com
   * Organize information so browsers can display it visually.
 
 ---
+## What is HTML 
+
+- **HTML is a markup language** used to:
+  - Structure content on the web (headings, paragraphs, links, tables, images, etc.).
+  - Organize information so browsers can display it visually.
+
+- HTML files have the `.html` extension.
+
+### Example of simple HTML:
+
+```html
+<html>
+  <head><title>My Page</title></head>
+  <body>
+    <h1>Hello, World!</h1>
+    <p>This is a paragraph.</p>
+  </body>
+</html>
+````
+
+---
+
+## 🌐 HTML Versions 📜
+
+| Version   | Year | Key Features                                            |
+| --------- | ---- | ------------------------------------------------------- |
+| HTML 2.0  | 1995 | First official standard                                 |
+| HTML 3.2  | 1997 | Tables, applets, scripting support                      |
+| HTML 4.01 | 1999 | Better forms, style sheets (CSS)                        |
+| XHTML 1.0 | 2000 | Stricter XML-based HTML                                 |
+| HTML5     | 2014 | Video/audio, canvas, responsive design, modern web apps |
+
+---
+
+## 🔗 How They Work Together 🤝
+
+| HTML                   | HTTP/HTTPS                                      |
+| ---------------------- | ----------------------------------------------- |
+| Markup Language        | Communication Protocol                          |
+| Structures content     | Transfers content                               |
+| Saved in `.html` files | Defines how data moves between browser ↔ server |
+
+
+  1. You type a URL (like `https://example.com`).
+
+  2. Browser sends an **HTTP/HTTPS request** to the server.
+
+  3. Server responds with an **HTML file**.
+
+  4. Browser renders the HTML into a readable web page.
+
+  - **HTML builds the content.**
+  - **HTTP/HTTPS moves the content.**
+  - Modern web uses **HTML5** and **HTTP/2** or **HTTP/3** for best performance.
+
+---
+
+## 🌿 HTML Basics
+
+## 🧱 Structure and Syntax
+
+- Every HTML document starts with a `<!DOCTYPE html>` declaration.
+- The basic structure:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <h1>Main Heading</h1>
+    <p>Paragraph of text.</p>
+  </body>
+</html>
+````
+
+---
+
+## 🏷️ Common Tags
+
+* **Headings:** `<h1>` to `<h6>`, where `<h1>` is the largest.
+* **Paragraphs:** `<p>Paragraph text</p>`
+
+##  `Homework`: 
+- What is Host Injection Attack?

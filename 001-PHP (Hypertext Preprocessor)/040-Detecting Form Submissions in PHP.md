@@ -152,7 +152,7 @@ $password = isset($_POST['passw']) ? trim($_POST['passw']) : "";
 
 ### ✅ Beginner-Friendly Version (Easy to Understand)
 
-```html
+```php
 <!DOCTYPE html>
 <html>
 <head>

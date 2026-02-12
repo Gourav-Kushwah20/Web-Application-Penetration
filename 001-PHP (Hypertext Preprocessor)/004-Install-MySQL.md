@@ -193,6 +193,8 @@ vim /etc/hosts
 
 ### ⬇️ Download and unzip:
 
+https://www.phpmyadmin.net/files/5.2.3/ 
+
 ```bash
 wget https://files.phpmyadmin.net/phpMyAdmin/5.2.3/phpMyAdmin-5.2.3-all-languages.zip
 ```
@@ -246,3 +248,11 @@ $cfg['blowfish_secret'] = 'obooj1weixe5beiVaiqu8iehu8theiXi';
 ```
 
 ---
+
+```bash
+chown -Rv www-data:www-data /var/www/html/phpmyadmin
+```
+
+```bash
+systemctl restart apache2.service
+```
