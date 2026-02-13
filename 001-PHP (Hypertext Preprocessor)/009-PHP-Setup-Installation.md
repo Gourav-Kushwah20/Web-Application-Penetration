@@ -10,8 +10,6 @@ mkdir php
 
 ## 📝 2. Open the `php` folder in **VS Code**
 
----
-
 ## 🔌 3. Install SFTP Extension in VS Code
 
 1. Go to **Extensions** tab
@@ -38,7 +36,7 @@ cd .vscode
 
 ---
 
-## ** Create the Configuration File**
+## **Create the Configuration File**
 
 * Right-click on your project folder in **VS Code**
 * Click **Command Palette** (`Ctrl + Shift + P` or `Cmd + Shift + P`)
@@ -70,6 +68,7 @@ Paste this configuration:
 }
 ```
 Press **Ctrl + S** 💾 to save.
+
 ---
 
 ## 🔑 **SFTP Config Keys & Their Meanings**
@@ -204,3 +203,10 @@ Create a File in vscode: `index.html`
 
 - Brower URL:
 http://192.168.1.50/php/index.html
+
+---
+
+
+> `Homework:` Before we start **Web Application Pentest**.You can read and go through HTML and CSS and Javascript , Java ,Pyhton, DotNet.
+
+- **JavaScript**: https://youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP&si=-SGkb5cafUbvBmaa

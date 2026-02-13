@@ -1,6 +1,6 @@
 # **What is a String in PHP?**
 
-A **string** is a sequence of characters — like letters, numbers, and symbols — **enclosed in quotes**.
+A **string** is a **sequence of characters** — like letters, numbers, and symbols — **enclosed in quotes**.
 
 In PHP, a string can be inside:
 

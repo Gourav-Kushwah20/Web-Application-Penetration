@@ -1,6 +1,29 @@
 # 📘 Numbers in PHP
 
-This guide covers basic operations with **integers** and **floats** in PHP, including arithmetic operations, assignment operators, and random number generation.
+## 📚 Integers and Floats in PHP
+
+PHP supports different types of numbers, mainly **Integers** and **Floats** (also called **Doubles** or **Floating-point numbers**).
+
+---
+
+## ➡️ Integers
+
+- **Definition:** Whole numbers without a decimal point.
+
+- **Examples:**  
+  `-5`, `0`, `42`, `1000`
+
+- **Size:**  
+  - Usually **32-bit** or **64-bit** depending on the system.
+
+
+## 🧮 Common Integer Operations
+
+- Addition `+`  
+- Subtraction `-`  
+- Multiplication `*`  
+- Division `/`  
+- Modulus `%` (remainder)  
 
 ---
 
@@ -40,6 +63,25 @@ $var2 = 8;
 </html>
 ```
 ---
+## ➡️ Floats
+
+- **Definition:** Numbers with a decimal point or in exponential form.
+
+- **Examples:**  
+  `3.14`, `-0.99`, `2e3` (which is `2000`)
+
+- **Precision:**  
+  - Limited due to how computers store floating-point numbers (IEEE 754 standard).
+
+
+## 🔢 Common Float Functions
+
+- `round()` – Round a float  
+- `ceil()` – Round up to the nearest integer  
+- `floor()` – Round down to the nearest integer  
+- `abs()` – Absolute value  
+- `pow()` – Exponents  
+- `sqrt()` – Square root  
 
 ## ➡️ Floats Example
 

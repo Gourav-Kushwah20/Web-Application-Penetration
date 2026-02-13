@@ -1,16 +1,16 @@
 # 📄 PHP-Script-To-Display-A-Basic-Webpage
-
+![alt text](./img/PHP-Essential.jpg)
 ## 🌐 PHP Script: Display Basic Webpage
 
 This PHP script outputs a simple HTML page titled and headed **"Armour Infosec."**
 
 ---
 
-## 📝 Steps
-
 ### ▶️ Start PHP:
 
 ### 🧱 Output HTML structure using `echo`:
+
+- **php1.php**
 
 ```php
 <?php
@@ -31,6 +31,8 @@ echo "</html>";
 
 Use a single `echo` with better structure:
 
+- **php2.php**
+
 ```php
 <?php
 echo "
@@ -48,6 +50,8 @@ echo "
 ---
 
 ## 📌 Using Heredoc (Optional)
+
+- **php3.php**
 
 ```php
 <?php

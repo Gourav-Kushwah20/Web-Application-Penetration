@@ -6,6 +6,8 @@ This script creates a simple HTML5 page titled and headed with **"Armour Infosec
 
 ## 💻 Code
 
+- **php4.php**
+
 ```php
 <!DOCTYPE html>
 <html>
@@ -17,7 +19,7 @@ This script creates a simple HTML5 page titled and headed with **"Armour Infosec
     <h1><?php echo "Armour Infosec"; ?></h1>
 </body>
 </html>
-````
+```
 
 ---
 
@@ -33,6 +35,8 @@ This script creates a simple HTML5 page titled and headed with **"Armour Infosec
 ## 💡 Tip
 
 You can define a variable for reuse:
+
+- **php5.php**
 
 ```php
 <?php
@@ -50,3 +54,4 @@ $title = "Armour Infosec";
 </html>
 ```
 
+---

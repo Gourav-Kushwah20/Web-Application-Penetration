@@ -187,6 +187,8 @@ echo "Substring starting from 'P': " . strchr($text, "P");
 
 ## **PHP String Functions – Full Code Example**
 
+- `StringFun.php`
+
 ```php
 <!DOCTYPE html>
 <html>
@@ -280,18 +282,18 @@ echo "Substring starting from 'P': " . strchr($text13, "P") . "<br>";
 
 ## **Summary of Key Functions**
 
-* **strlen()** — Get the length of a string.
-* **strtoupper()** — Convert string to uppercase.
-* **strtolower()** — Convert string to lowercase.
-* **ucfirst()** — Capitalize the first character of a string.
-* **ucwords()** — Capitalize the first letter of each word.
-* **str_replace()** — Replace text within a string.
-* **strpos()** — Find the position of a substring.
-* **substr()** — Extract a portion of a string.
-* **trim()** — Remove spaces from the beginning and end.
-* **str_repeat()** — Repeat a string.
-* **strrev()** — Reverse a string.
-* **strstr()** and **strchr()** — Find the first occurrence of a substring or character.
+* **`strlen()`** — Get the length of a string.
+* **`strtoupper()`** — Convert string to uppercase.
+* **`strtolower()`** — Convert string to lowercase.
+* **`ucfirst()`** — Capitalize the first character of a string.
+* **`ucwords()`** — Capitalize the first letter of each word.
+* **`str_replace()`** — Replace text within a string.
+* **`strpos()`** — Find the position of a substring.
+* **`substr()`** — Extract a portion of a string.
+* **`trim()`** — Remove spaces from the beginning and end.
+* **`str_repeat()`** — Repeat a string.
+* **`strrev()`** — Reverse a string.
+* **`strstr()`** and **`strchr()`** — Find the first occurrence of a substring or character.
 
 ---
 

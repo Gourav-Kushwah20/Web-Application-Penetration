@@ -8,7 +8,6 @@ PHP arrays are powerful data structures to store multiple values in a single var
 
 An **indexed array** is an ordered collection where keys are integers starting from **0**.
 
----
 
 ### Example: `array.php`
 
@@ -65,7 +64,7 @@ An **associative array** uses named keys (strings) instead of numeric indexes.
 
 ---
 
-### Example: `associative_array.php`
+### Example: `Associative-Array.php`
 
 ```php
 <!DOCTYPE html>
@@ -107,3 +106,101 @@ echo $user_email;
 </body>
 </html>
 ```
+---
+
+## ➡️ Array Functions
+
+PHP provide many built-in functions to work with arrays.
+
+- Array_functions.php
+
+```php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array_functions</title>
+</head>
+<body>
+    <?php
+    $array1 = array(41,34,2,35,12,65,8,9,45);
+    ?>
+
+    Count: <?= count($array1) ?><br />
+    Max Value: <?= max($array1) ?><br />
+    Min Value: <?= min($array1) ?><br />
+    
+    <?php
+    print_r($array1);
+    ?>
+
+    <br>
+
+    Sort:
+    <?php
+    sort($array1);
+    print_r($array1);
+    ?>
+    <br>
+
+    Reverse sort:
+    <?php
+    rsort($array1);
+    print_r($array1);
+    ?>
+    <br>
+
+    Explode:
+    <?php
+    $str3 = "This is Demo";
+    $array3 = explode(" ",$str3);
+    print_r($array3);
+    ?>
+    <br>
+
+    Implode(space):
+    <?php
+    $str1 = implode(" ",$array1);
+    echo $str1;
+    ?>
+    <br>
+      Implode(comma):
+    <?php
+    $str1 = implode(",",$array1);
+    echo $str1;
+    ?>
+    <br>
+
+    In Array (check if 45 is exists):
+    <?php
+    $int1 = in_array(45,$array1);
+    echo $int1 ? "Found " : "Not Found";
+    echo "<br />";
+    echo gettype($int1); //boolean    
+    ?>
+</body>
+</html>
+```
+---
+## 📋 Key Notes
+
+| Function     | Description                              |
+|--------------|------------------------------------------|
+| `count()`    | Count number of elements in an array     |
+| `max()`      | Find maximum value                       |
+| `min()`      | Find minimum value                       |
+| `sort()`     | Sort an array (ascending)                |
+| `rsort()`    | Sort an array (descending)               |
+| `explode()`  | Split a string into an array             |
+| `implode()`  | Join array elements into a string        |
+| `in_array()` | Check if a value exists in an array      |
+
+---
+
+## ✅ Best Practices
+
+- Always validate array keys before accessing them to avoid **warnings**.
+- Use **associative arrays** when working with structured data (like user records).
+- Prefer using **array functions** for better performance and cleaner code.
+

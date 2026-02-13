@@ -81,3 +81,23 @@ $bool3 check type: <?php echo gettype($bool3); ?> <br />
 | `is_bool($var)` | Checks if a variable is a boolean |
 | `gettype($var)` | Returns the type of a variable |
 
+---
+
+## ✅ Usage Example
+
+```php
+$user_is_logged_in = true;
+
+if ($user_is_logged_in) {
+    echo "Welcome back!";
+} else {
+    echo "Please log in.";
+}
+```
+
+---
+
+### 🔁 Summary
+
+Booleans are the simplest data type in PHP but are powerful tools for flow control, conditionals, and validation logic.
+

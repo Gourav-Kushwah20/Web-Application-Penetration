@@ -144,7 +144,4 @@ echo $my_Variable;
 
 ---
 
-## **Tip**
-
-In PHP, variable names should be meaningful and consistent (e.g., **camelCase** or **snake_case** for better readability).
 

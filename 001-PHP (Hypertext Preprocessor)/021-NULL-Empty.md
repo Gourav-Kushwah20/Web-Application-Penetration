@@ -7,7 +7,7 @@ and how `unset()` affects variables.
 
 ---
 
-## 📄 File: `null-empty.php`
+## 📄 File: `Null-empty.php`
 
 ```php
 <!DOCTYPE html>
