@@ -91,7 +91,7 @@ netstat -nltup
 
 ---
 
-## 🚫 Disable `Directory Listing`
+### 🚫 Disable `Directory Listing`
 
 Improve security by removing the `directory listing` option:
 
@@ -107,9 +107,9 @@ systemctl restart apache2.service
 
 ---
 
-## 🧩 Installing PHP
+### 🧩 Installing PHP
 
-### 🔍 Search for PHP Versions
+#### 🔍 Search for PHP Versions
 
 ```bash
 apt search php | grep "php/stable"
@@ -145,7 +145,7 @@ allow_url_fopen = On
 ```
 - Search using `/allow_url_fopen` operator and check all value of upper Settings:
 
-![alt text](./img/image-6.png)
+![image-6.png](./img/image-6.png)
 
 #### 🔄 Restart Apache after configuration:
 
