@@ -6,7 +6,7 @@ This comprehensive guide walks you through installing and configuring **Apache2,
 
 ---
 
-## 🔄 System Update
+### 🔄 System Update
 
 ✔️ Ensure your system is up-to-date before beginning.
 
@@ -20,7 +20,7 @@ apt upgrade
 
 ---
 
-## 🏛️ Installing Apache2
+### 🏛️ Installing Apache2
 
 Install the Apache web server and networking tools:
 
@@ -37,7 +37,7 @@ apt install net-tools
 
 ---
 
-## 🔎 Verify Apache Installation
+### 🔎 Verify Apache Installation
 
 Check listening services and ensure Apache is running:
 
@@ -52,15 +52,15 @@ dpkg -l | grep apache
 ---
 
 
-## ⚙️ Configure Apache
+### ⚙️ Configure Apache
 
-### ✏️ Edit Apache Config File
+#### ✏️ Edit Apache Config File
 
 ```bash
 vim /etc/apache2/apache2.conf
 ```
 
-### ✔️ Ensure these lines are included:
+#### ✔️ Ensure these lines are included:
 
 ```apache
 # Include generic snippets of statements
@@ -72,7 +72,7 @@ IncludeOptional sites-enabled/*.conf
 
 ---
 
-## 🔄 Restart and Enable Apache Service
+### 🔄 Restart and Enable Apache Service
 
 ```bash
 systemctl restart apache2.service
@@ -83,7 +83,7 @@ systemctl enable apache2.service
 ```
 
 
-## 🔎 Confirm Apache is Listening
+### 🔎 Confirm Apache is Listening
 
 ```bash
 netstat -nltup
@@ -107,9 +107,9 @@ systemctl restart apache2.service
 
 ---
 
-# 🧩 Installing PHP
+## 🧩 Installing PHP
 
-## 🔍 Search for PHP Versions
+### 🔍 Search for PHP Versions
 
 ```bash
 apt search php | grep "php/stable"
@@ -117,7 +117,7 @@ apt search php | grep "php/stable"
 
 ---
 
-## 📦 Install PHP and Extensions
+### 📦 Install PHP and Extensions
 
 ```bash
 apt install php php8.4 php8.4-common php8.4-mbstring php8.4-xmlrpc php8.4-soap php8.4-gd php8.4-xml php8.4-intl php8.4-mysql php8.4-cli php8.4-ldap php8.4-zip php8.4-curl php-xml composer
@@ -125,15 +125,15 @@ apt install php php8.4 php8.4-common php8.4-mbstring php8.4-xmlrpc php8.4-soap p
 
 ---
 
-## ⚙️ Configure PHP
+### ⚙️ Configure PHP
 
-### ✏️ Edit the configuration file:
+#### ✏️ Edit the configuration file:
 
 ```bash
 vim /etc/php/8.4/apache2/php.ini
 ```
 
-### ✅ Recommended settings:
+#### ✅ Recommended settings:
 
 ```ini
 memory_limit = 512M
@@ -147,23 +147,20 @@ allow_url_fopen = On
 
 ![alt text](./img/image-6.png)
 
-### 🔄 Restart Apache after configuration:
+#### 🔄 Restart Apache after configuration:
 
 ```bash
 systemctl restart apache2.service
 ```
-
-Here is the **markdown version with emojis**, based on your uploaded image:
-
 ---
 
-## 🧪 Create a PHP Info Page
+#### 🧪 Create a PHP Info Page
 
 ```bash
 vim /var/www/html/phpinfo.php
 ```
 
-### Insert:
+#### Insert:
 
 ```php
 <?php
@@ -171,7 +168,7 @@ vim /var/www/html/phpinfo.php
 ?>
 ```
 
-### 📁 Set file ownership:
+#### 📁 Set file ownership:
 
 ```bash
 chown -Rv www-data:www-data /var/www/html/phpinfo.php
